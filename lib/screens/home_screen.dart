@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:weather_app_getx/controller/global_controller.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+  final GlobalController controller = Get.put(GlobalController());
+
+  HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
