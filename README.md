@@ -1,2 +1,2 @@
-# WaetherApp-GETX
+# WeatherApp-GETX
 Weather App Flutter GetX
